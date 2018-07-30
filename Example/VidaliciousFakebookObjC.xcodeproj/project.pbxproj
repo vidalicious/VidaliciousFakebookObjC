@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* VFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* VFAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* VFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* VFViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,6 +22,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		90AD813550ACBD6993E99E71 /* Pods_VidaliciousFakebookObjC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B260568194D995F21B53260 /* Pods_VidaliciousFakebookObjC_Tests.framework */; };
+		BCFF9A49210F6C9E00464CA2 /* VFKitsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF9A48210F6C9E00464CA2 /* VFKitsTableViewController.m */; };
 		F96EEFBCE00992D1C333FB48 /* Pods_VidaliciousFakebookObjC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9C92E394745E3F241297C1 /* Pods_VidaliciousFakebookObjC_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,8 +50,6 @@
 		6003F59B195388D20070C39A /* VidaliciousFakebookObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VidaliciousFakebookObjC-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* VFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* VFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* VFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* VFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* VidaliciousFakebookObjC_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidaliciousFakebookObjC_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,9 +60,11 @@
 		6E8A5B24611579AE9558B6B6 /* Pods-VidaliciousFakebookObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookObjC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookObjC_Tests/Pods-VidaliciousFakebookObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D9B4216E39CF7618454FF28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BA215100099D83E9155B3C38 /* VidaliciousFakebookObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VidaliciousFakebookObjC.podspec; path = ../VidaliciousFakebookObjC.podspec; sourceTree = "<group>"; };
-		C0A28EE4CE2F0403FCA6E60B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8D9B4216E39CF7618454FF28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BA215100099D83E9155B3C38 /* VidaliciousFakebookObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VidaliciousFakebookObjC.podspec; path = ../VidaliciousFakebookObjC.podspec; sourceTree = "<group>"; };
+		BCFF9A47210F6C9E00464CA2 /* VFKitsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFKitsTableViewController.h; sourceTree = "<group>"; };
+		BCFF9A48210F6C9E00464CA2 /* VFKitsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFKitsTableViewController.m; sourceTree = "<group>"; };
+		C0A28EE4CE2F0403FCA6E60B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CC32AD7E162BDC0D6EE87C11 /* Pods-VidaliciousFakebookObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookObjC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookObjC_Tests/Pods-VidaliciousFakebookObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA9C92E394745E3F241297C1 /* Pods_VidaliciousFakebookObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VidaliciousFakebookObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,9 +134,9 @@
 			children = (
 				6003F59C195388D20070C39A /* VFAppDelegate.h */,
 				6003F59D195388D20070C39A /* VFAppDelegate.m */,
+				BCFF9A47210F6C9E00464CA2 /* VFKitsTableViewController.h */,
+				BCFF9A48210F6C9E00464CA2 /* VFKitsTableViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* VFViewController.h */,
-				6003F5A6195388D20070C39A /* VFViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -381,8 +381,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* VFAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* VFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				BCFF9A49210F6C9E00464CA2 /* VFKitsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
