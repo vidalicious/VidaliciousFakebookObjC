@@ -1,53 +1,63 @@
 //
-//  VFKitsTableViewController.m
+//  VFDemoTableViewController.m
 //  VidaliciousFakebookObjC_Example
 //
-//  Created by vidalicious on 2018/7/30.
+//  Created by vidalicious on 2018/8/1.
 //  Copyright © 2018 vidalicious. All rights reserved.
 //
 
-#import "VFKitsTableViewController.h"
+#import "VFDemoTableViewController.h"
 
-@interface VFKitsTableViewController ()
+@interface VFDemoTableViewController ()
 
-@
+@property (nonatomic, strong) NSMutableArray *titles;
+@property (nonatomic, strong) NSMutableArray *vcNames;
 
 @end
 
-@implementation VFKitsTableViewController
+@implementation VFDemoTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-     self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-     self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    _titles = @[].mutableCopy;
+    _vcNames = @[].mutableCopy;
+    [self.tableView registerClass:UITableViewCell.class forCellReuseIdentifier:@"VFDemo"];
 }
 
+- (void)addTitle:(NSString *)title vc:(NSString *)vcNames {
+    [_titles addObject:title];
+    [_vcNames addObject:vcNames];
+}
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return _titles.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"VFDemo" forIndexPath:indexPath];
+//    if (!cell) {
+//        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"VFDemo"];
+//    }
+    cell.textLabel.text = _titles[indexPath.row];
     return cell;
 }
-*/
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    Class class = NSClassFromString(_vcNames[indexPath.row]);
+    if (class) {
+        UIViewController *vc = class.new;
+        vc.title = _titles[indexPath.row];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 
 /*
 // Override to support conditional editing of the table view.

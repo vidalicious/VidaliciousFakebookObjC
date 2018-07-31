@@ -22,7 +22,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		90AD813550ACBD6993E99E71 /* Pods_VidaliciousFakebookObjC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B260568194D995F21B53260 /* Pods_VidaliciousFakebookObjC_Tests.framework */; };
-		BCFF9A49210F6C9E00464CA2 /* VFKitsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF9A48210F6C9E00464CA2 /* VFKitsTableViewController.m */; };
+		BCFF9A572110BFA300464CA2 /* VFDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF9A562110BFA300464CA2 /* VFDemoTableViewController.m */; };
+		BCFF9A5E2110C60000464CA2 /* VFArmoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF9A5D2110C60000464CA2 /* VFArmoryTableViewController.m */; };
 		F96EEFBCE00992D1C333FB48 /* Pods_VidaliciousFakebookObjC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9C92E394745E3F241297C1 /* Pods_VidaliciousFakebookObjC_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +63,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D9B4216E39CF7618454FF28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BA215100099D83E9155B3C38 /* VidaliciousFakebookObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VidaliciousFakebookObjC.podspec; path = ../VidaliciousFakebookObjC.podspec; sourceTree = "<group>"; };
-		BCFF9A47210F6C9E00464CA2 /* VFKitsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFKitsTableViewController.h; sourceTree = "<group>"; };
-		BCFF9A48210F6C9E00464CA2 /* VFKitsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFKitsTableViewController.m; sourceTree = "<group>"; };
+		BCFF9A552110BFA300464CA2 /* VFDemoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFDemoTableViewController.h; sourceTree = "<group>"; };
+		BCFF9A562110BFA300464CA2 /* VFDemoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFDemoTableViewController.m; sourceTree = "<group>"; };
+		BCFF9A5C2110C60000464CA2 /* VFArmoryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFArmoryTableViewController.h; sourceTree = "<group>"; };
+		BCFF9A5D2110C60000464CA2 /* VFArmoryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFArmoryTableViewController.m; sourceTree = "<group>"; };
 		C0A28EE4CE2F0403FCA6E60B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CC32AD7E162BDC0D6EE87C11 /* Pods-VidaliciousFakebookObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookObjC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookObjC_Tests/Pods-VidaliciousFakebookObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA9C92E394745E3F241297C1 /* Pods_VidaliciousFakebookObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VidaliciousFakebookObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,8 +137,10 @@
 			children = (
 				6003F59C195388D20070C39A /* VFAppDelegate.h */,
 				6003F59D195388D20070C39A /* VFAppDelegate.m */,
-				BCFF9A47210F6C9E00464CA2 /* VFKitsTableViewController.h */,
-				BCFF9A48210F6C9E00464CA2 /* VFKitsTableViewController.m */,
+				BCFF9A552110BFA300464CA2 /* VFDemoTableViewController.h */,
+				BCFF9A562110BFA300464CA2 /* VFDemoTableViewController.m */,
+				BCFF9A5C2110C60000464CA2 /* VFArmoryTableViewController.h */,
+				BCFF9A5D2110C60000464CA2 /* VFArmoryTableViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -381,8 +386,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* VFAppDelegate.m in Sources */,
+				BCFF9A5E2110C60000464CA2 /* VFArmoryTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				BCFF9A49210F6C9E00464CA2 /* VFKitsTableViewController.m in Sources */,
+				BCFF9A572110BFA300464CA2 /* VFDemoTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

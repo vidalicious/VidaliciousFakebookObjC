@@ -56,10 +56,10 @@
             </objects>
             <point key="canvasLocation" x="559" y="591"/>
         </scene>
-        <!--Kits Table View Controller-->
+        <!--Armory Table View Controller-->
         <scene sceneID="9Xp-ft-hhK">
             <objects>
-                <tableViewController id="rp3-7H-2Dn" customClass="VFKitsTableViewController" sceneMemberID="viewController">
+                <tableViewController id="rp3-7H-2Dn" customClass="VFArmoryTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QQe-2b-hJ2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,11 +85,11 @@
             </objects>
             <point key="canvasLocation" x="686" y="-223"/>
         </scene>
-        <!--Kits-->
+        <!--Armory-->
         <scene sceneID="c5u-KF-RrY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nBj-ps-ewp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Kits" id="kpA-Ga-YTC"/>
+                    <tabBarItem key="tabBarItem" title="Armory" id="kpA-Ga-YTC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xp4-ne-AaH">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>

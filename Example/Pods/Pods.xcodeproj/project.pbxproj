@@ -119,6 +119,8 @@
 		BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BCFF9A44210F678B00464CA2 /* VFTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFF9A42210F678B00464CA2 /* VFTableViewController.h */; };
 		BCFF9A45210F678B00464CA2 /* VFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF9A43210F678B00464CA2 /* VFTableViewController.m */; };
+		BCFF9A612110C65B00464CA2 /* VFAFNetworkingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFF9A5F2110C65B00464CA2 /* VFAFNetworkingViewController.h */; };
+		BCFF9A622110C65B00464CA2 /* VFAFNetworkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF9A602110C65B00464CA2 /* VFAFNetworkingViewController.m */; };
 		BF0695CCB3A6601EF2D235E7CC3B60DC /* Pods-VidaliciousFakebookObjC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B160D05608C80FCBBCF2EDE1D1BEF9EC /* Pods-VidaliciousFakebookObjC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C14CD98EE4DDC0B7689F058D5B79CC47 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E62B947C08376C71E07F669D636FF8 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -357,6 +359,8 @@
 		BB4DC57B05E96C2EB152A59EFCDB6F12 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		BCFF9A42210F678B00464CA2 /* VFTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFTableViewController.h; sourceTree = "<group>"; };
 		BCFF9A43210F678B00464CA2 /* VFTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFTableViewController.m; sourceTree = "<group>"; };
+		BCFF9A5F2110C65B00464CA2 /* VFAFNetworkingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFAFNetworkingViewController.h; sourceTree = "<group>"; };
+		BCFF9A602110C65B00464CA2 /* VFAFNetworkingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFAFNetworkingViewController.m; sourceTree = "<group>"; };
 		BDD4C8773AF3843192776E83D48B7878 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
 		BF701C1C8F03B74819BFFD19C9DEA426 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
@@ -728,8 +732,10 @@
 		B860579404BA89147A1E831DA73539A6 /* VidaliciousFakebookObjC */ = {
 			isa = PBXGroup;
 			children = (
+				BCFF9A5B2110C51900464CA2 /* Armory */,
 				BCFF9A46210F681000464CA2 /* Utilities */,
 				BCFF9A41210F66F800464CA2 /* Kits */,
+				BCFF9A542110BC2000464CA2 /* Vendors */,
 				BB77F5B08369E0C4215BF6846D047930 /* Pod */,
 				B5045722EBCB22C1DCE05652CD66DF83 /* Support Files */,
 			);
@@ -761,6 +767,22 @@
 			children = (
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BCFF9A542110BC2000464CA2 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		BCFF9A5B2110C51900464CA2 /* Armory */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF9A5F2110C65B00464CA2 /* VFAFNetworkingViewController.h */,
+				BCFF9A602110C65B00464CA2 /* VFAFNetworkingViewController.m */,
+			);
+			path = Armory;
 			sourceTree = "<group>";
 		};
 		C29C93E7F175EC9CDE6E55BE676C8B75 /* Specta */ = {
@@ -875,6 +897,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFF9A612110C65B00464CA2 /* VFAFNetworkingViewController.h in Headers */,
 				BCFF9A44210F678B00464CA2 /* VFTableViewController.h in Headers */,
 				35D52858D576F26AA46C124F3A921350 /* VidaliciousFakebookObjC-umbrella.h in Headers */,
 			);
@@ -1252,6 +1275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7590A33ECD72D20E10A846D0F8956B7 /* VidaliciousFakebookObjC-dummy.m in Sources */,
+				BCFF9A622110C65B00464CA2 /* VFAFNetworkingViewController.m in Sources */,
 				BCFF9A45210F678B00464CA2 /* VFTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
