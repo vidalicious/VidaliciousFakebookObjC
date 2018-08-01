@@ -18,5 +18,43 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "VidaliciousFakebookObjC/Classes/**/*"
+  "source_files": "VidaliciousFakebookObjC/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "ReactiveObjC": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "SDWebImage/WebP": [
+
+    ],
+    "FMDB": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "JSONModel": [
+
+    ],
+    "WMPageController": [
+
+    ],
+    "UITableView+FDTemplateLayoutCell": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "SVProgressHUD": [
+
+    ]
+  }
 }

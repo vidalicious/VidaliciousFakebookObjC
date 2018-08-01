@@ -38,5 +38,17 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
+  s.dependency 'ReactiveObjC'
+  s.dependency 'SDWebImage'
+  s.dependency 'SDWebImage/WebP'
+  s.dependency 'FMDB'
+  s.dependency 'Masonry'
+  s.dependency 'JSONModel'
+  s.dependency 'WMPageController'
+  s.dependency 'UITableView+FDTemplateLayoutCell'
+  s.dependency 'MJExtension'
+  s.dependency 'MJRefresh'
+  s.dependency 'SVProgressHUD'
+
 end
