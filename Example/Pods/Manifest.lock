@@ -56,9 +56,6 @@ PODS:
   - MJExtension (3.0.15.1)
   - MJRefresh (3.1.15.3)
   - ReactiveObjC (3.1.0)
-  - Realm (3.7.5):
-    - Realm/Headers (= 3.7.5)
-  - Realm/Headers (3.7.5)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
@@ -76,7 +73,6 @@ PODS:
     - MJExtension
     - MJRefresh
     - ReactiveObjC
-    - Realm
     - SDWebImage
     - SDWebImage/WebP
     - SVProgressHUD
@@ -104,7 +100,6 @@ SPEC REPOS:
     - MJExtension
     - MJRefresh
     - ReactiveObjC
-    - Realm
     - SDWebImage
     - Specta
     - SVProgressHUD
@@ -127,12 +122,11 @@ SPEC CHECKSUMS:
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
-  Realm: c286caf4dbf346ce24aad49ca76c7ce622d4a082
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
-  VidaliciousFakebookObjC: dc5dc91ea0ae2686441a1c0cfd21dd4cc8b1ad78
+  VidaliciousFakebookObjC: dc83d2adc3e9c7b8eea83bddc9f096f15147d7e2
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
 
 PODFILE CHECKSUM: a4097b03cf33d67a030bfdeaa96fcc423c49d472
