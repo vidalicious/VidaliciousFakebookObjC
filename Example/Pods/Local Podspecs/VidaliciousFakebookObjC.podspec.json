@@ -18,10 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "VidaliciousFakebookObjC/Classes/**/*",
-    "VidaliciousFakebookObjC/Classes/*"
-  ],
+  "source_files": "VidaliciousFakebookObjC/Classes/**/*",
   "dependencies": {
     "AFNetworking": [
 

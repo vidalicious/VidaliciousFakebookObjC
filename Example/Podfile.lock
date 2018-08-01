@@ -88,7 +88,7 @@ DEPENDENCIES:
   - VidaliciousFakebookObjC (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - AFNetworking
     - Expecta
     - "Expecta+Snapshots"
@@ -126,9 +126,9 @@ SPEC CHECKSUMS:
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
-  VidaliciousFakebookObjC: 443177165ecaee5c1812404d50a6e8e823b892b3
+  VidaliciousFakebookObjC: c3cad4e750195e63f43a2fab25153a6fd2d6324b
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
 
 PODFILE CHECKSUM: a4097b03cf33d67a030bfdeaa96fcc423c49d472
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
