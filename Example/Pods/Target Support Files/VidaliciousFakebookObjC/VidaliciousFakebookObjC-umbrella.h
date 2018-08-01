@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "VFAFNetworkingViewController.h"
 
 FOUNDATION_EXPORT double VidaliciousFakebookObjCVersionNumber;
 FOUNDATION_EXPORT const unsigned char VidaliciousFakebookObjCVersionString[];
