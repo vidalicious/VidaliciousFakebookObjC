@@ -49,5 +49,6 @@ TODO: Add long description of the pod here.
   s.dependency 'MJExtension'
   s.dependency 'MJRefresh'
   s.dependency 'SVProgressHUD'
+  s.dependency 'Realm'
 
 end
