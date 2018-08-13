@@ -47,6 +47,9 @@
     "UITableView+FDTemplateLayoutCell": [
 
     ],
+    "FDFullscreenPopGesture": [
+
+    ],
     "MJExtension": [
 
     ],
@@ -54,6 +57,30 @@
 
     ],
     "SVProgressHUD": [
+
+    ],
+    "RxWebViewController": [
+
+    ],
+    "CYLTabBarController": [
+
+    ],
+    "FDStackView": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "BlocksKit": [
+
+    ],
+    "IAPHelper": [
+
+    ],
+    "Valet": [
+
+    ],
+    "LXMButtonImagePosition": [
 
     ]
   }

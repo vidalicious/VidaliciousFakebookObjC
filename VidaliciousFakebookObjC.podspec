@@ -46,9 +46,18 @@ TODO: Add long description of the pod here.
   s.dependency 'JSONModel'
   s.dependency 'WMPageController'
   s.dependency 'UITableView+FDTemplateLayoutCell'
+  s.dependency 'FDFullscreenPopGesture'
   s.dependency 'MJExtension'
   s.dependency 'MJRefresh'
   s.dependency 'SVProgressHUD'
+  s.dependency 'RxWebViewController'
+  s.dependency 'CYLTabBarController'
+  s.dependency 'FDStackView'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'BlocksKit'
+  s.dependency 'IAPHelper'
+  s.dependency 'Valet'
+  s.dependency 'LXMButtonImagePosition'
 #s.dependency 'Realm'
 
 end

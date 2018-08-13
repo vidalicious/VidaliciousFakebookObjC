@@ -14,6 +14,22 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CYLTabBarController (1.17.16)
   - Expecta (1.0.6)
   - "Expecta+Snapshots (3.1.1)":
     - Expecta (~> 1.0)
@@ -24,9 +40,13 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - FDFullscreenPopGesture (1.1)
+  - FDStackView (1.0.1)
   - FMDB (2.7.2):
     - FMDB/standard (= 2.7.2)
   - FMDB/standard (2.7.2)
+  - IAPHelper (1.1)
+  - IQKeyboardManager (6.1.1)
   - JSONModel (1.7.0)
   - libwebp (0.6.1):
     - libwebp/core (= 0.6.1)
@@ -52,10 +72,12 @@ PODS:
   - libwebp/utils (0.6.1):
     - libwebp/core
   - libwebp/webp (0.6.1)
+  - LXMButtonImagePosition (1.2.0)
   - Masonry (1.1.0)
   - MJExtension (3.0.15.1)
   - MJRefresh (3.1.15.3)
   - ReactiveObjC (3.1.0)
+  - RxWebViewController (0.0.2)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
@@ -65,18 +87,28 @@ PODS:
   - Specta (1.0.7)
   - SVProgressHUD (2.2.5)
   - "UITableView+FDTemplateLayoutCell (1.6)"
+  - Valet (3.1.4)
   - VidaliciousFakebookObjC (0.1.0):
     - AFNetworking
+    - BlocksKit
+    - CYLTabBarController
+    - FDFullscreenPopGesture
+    - FDStackView
     - FMDB
+    - IAPHelper
+    - IQKeyboardManager
     - JSONModel
+    - LXMButtonImagePosition
     - Masonry
     - MJExtension
     - MJRefresh
     - ReactiveObjC
+    - RxWebViewController
     - SDWebImage
     - SDWebImage/WebP
     - SVProgressHUD
     - "UITableView+FDTemplateLayoutCell"
+    - Valet
     - WMPageController
   - WMPageController (2.5.2)
 
@@ -90,20 +122,29 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - BlocksKit
+    - CYLTabBarController
     - Expecta
     - "Expecta+Snapshots"
     - FBSnapshotTestCase
+    - FDFullscreenPopGesture
+    - FDStackView
     - FMDB
+    - IAPHelper
+    - IQKeyboardManager
     - JSONModel
     - libwebp
+    - LXMButtonImagePosition
     - Masonry
     - MJExtension
     - MJRefresh
     - ReactiveObjC
+    - RxWebViewController
     - SDWebImage
     - Specta
     - SVProgressHUD
     - "UITableView+FDTemplateLayoutCell"
+    - Valet
     - WMPageController
 
 EXTERNAL SOURCES:
@@ -112,21 +153,30 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CYLTabBarController: fb72c648645336953d522407892c4f61b7b3f898
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FDStackView: fc0697e5be2022c8af36ce66e9e2061006058ba8
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  IAPHelper: fd74f53b0ac142eed085777b88b86a11746a2dd4
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   libwebp: 0f01098c6c17175391af621b2f14150f3ca16e16
+  LXMButtonImagePosition: 663e176be2c7e4ff99bcda808c364ebc3774af0f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  RxWebViewController: 79bcbf51aff13d93db9779404348b052ab0cd440
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
-  VidaliciousFakebookObjC: dc83d2adc3e9c7b8eea83bddc9f096f15147d7e2
+  Valet: c06af94b443de7e490b3fc5fd28256637ab7fdbd
+  VidaliciousFakebookObjC: e69ac6f0413a81f3c948cd15848f68760d1383c1
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
 
 PODFILE CHECKSUM: a4097b03cf33d67a030bfdeaa96fcc423c49d472

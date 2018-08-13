@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self addTitle:@"AFNetworking" vc:@"VFAFNetworkingViewController"];
-    [self addTitle:@"SDWebImage" vc:@""]
+    [self addTitle:@"SDWebImage" vc:@""];
 //    [self.tableView reloadData];
 }
 
