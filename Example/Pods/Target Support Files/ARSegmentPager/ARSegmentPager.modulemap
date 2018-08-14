@@ -1,0 +1,6 @@
+framework module ARSegmentPager {
+  umbrella header "ARSegmentPager-umbrella.h"
+
+  export *
+  module * { export * }
+}

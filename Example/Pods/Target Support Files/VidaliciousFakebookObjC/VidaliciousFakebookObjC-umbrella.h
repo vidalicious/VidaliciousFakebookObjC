@@ -12,6 +12,8 @@
 
 #import "VFAFNetworkingViewController.h"
 #import "VFSDWebImageViewController.h"
+#import "VFDefines.h"
+#import "VidaliciousFakebookObjC.h"
 
 FOUNDATION_EXPORT double VidaliciousFakebookObjCVersionNumber;
 FOUNDATION_EXPORT const unsigned char VidaliciousFakebookObjCVersionString[];
