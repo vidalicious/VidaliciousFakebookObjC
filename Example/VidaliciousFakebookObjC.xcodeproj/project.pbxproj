@@ -23,6 +23,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		90AD813550ACBD6993E99E71 /* Pods_VidaliciousFakebookObjC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B260568194D995F21B53260 /* Pods_VidaliciousFakebookObjC_Tests.framework */; };
 		BC9F94D62122901100D006D9 /* VFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9F94D52122901100D006D9 /* VFTabBarController.m */; };
+		BCD7A321214F8A8A00F95BF2 /* CodeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD7A320214F8A8A00F95BF2 /* CodeBlock.m */; };
 		BCFF9A572110BFA300464CA2 /* VFDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF9A562110BFA300464CA2 /* VFDemoTableViewController.m */; };
 		BCFF9A5E2110C60000464CA2 /* VFArmoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF9A5D2110C60000464CA2 /* VFArmoryTableViewController.m */; };
 		F96EEFBCE00992D1C333FB48 /* Pods_VidaliciousFakebookObjC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9C92E394745E3F241297C1 /* Pods_VidaliciousFakebookObjC_Example.framework */; };
@@ -66,6 +67,8 @@
 		BA215100099D83E9155B3C38 /* VidaliciousFakebookObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VidaliciousFakebookObjC.podspec; path = ../VidaliciousFakebookObjC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC9F94D42122901100D006D9 /* VFTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFTabBarController.h; sourceTree = "<group>"; };
 		BC9F94D52122901100D006D9 /* VFTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFTabBarController.m; sourceTree = "<group>"; };
+		BCD7A31F214F8A8900F95BF2 /* CodeBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeBlock.h; sourceTree = "<group>"; };
+		BCD7A320214F8A8A00F95BF2 /* CodeBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeBlock.m; sourceTree = "<group>"; };
 		BCFF9A552110BFA300464CA2 /* VFDemoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFDemoTableViewController.h; sourceTree = "<group>"; };
 		BCFF9A562110BFA300464CA2 /* VFDemoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFDemoTableViewController.m; sourceTree = "<group>"; };
 		BCFF9A5C2110C60000464CA2 /* VFArmoryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFArmoryTableViewController.h; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 				BCFF9A562110BFA300464CA2 /* VFDemoTableViewController.m */,
 				BCFF9A5C2110C60000464CA2 /* VFArmoryTableViewController.h */,
 				BCFF9A5D2110C60000464CA2 /* VFArmoryTableViewController.m */,
+				BCD7A31F214F8A8900F95BF2 /* CodeBlock.h */,
+				BCD7A320214F8A8A00F95BF2 /* CodeBlock.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -554,6 +559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD7A321214F8A8A00F95BF2 /* CodeBlock.m in Sources */,
 				6003F59E195388D20070C39A /* VFAppDelegate.m in Sources */,
 				BC9F94D62122901100D006D9 /* VFTabBarController.m in Sources */,
 				BCFF9A5E2110C60000464CA2 /* VFArmoryTableViewController.m in Sources */,
