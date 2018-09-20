@@ -69,6 +69,7 @@
 		BC9F94D52122901100D006D9 /* VFTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFTabBarController.m; sourceTree = "<group>"; };
 		BCD7A31F214F8A8900F95BF2 /* CodeBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeBlock.h; sourceTree = "<group>"; };
 		BCD7A320214F8A8A00F95BF2 /* CodeBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeBlock.m; sourceTree = "<group>"; };
+		BCD7A32221525DA300F95BF2 /* UIViewController comment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController comment.h"; sourceTree = "<group>"; };
 		BCFF9A552110BFA300464CA2 /* VFDemoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFDemoTableViewController.h; sourceTree = "<group>"; };
 		BCFF9A562110BFA300464CA2 /* VFDemoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFDemoTableViewController.m; sourceTree = "<group>"; };
 		BCFF9A5C2110C60000464CA2 /* VFArmoryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFArmoryTableViewController.h; sourceTree = "<group>"; };
@@ -152,6 +153,7 @@
 				BCFF9A5D2110C60000464CA2 /* VFArmoryTableViewController.m */,
 				BCD7A31F214F8A8900F95BF2 /* CodeBlock.h */,
 				BCD7A320214F8A8A00F95BF2 /* CodeBlock.m */,
+				BCD7A32221525DA300F95BF2 /* UIViewController comment.h */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
