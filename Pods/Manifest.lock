@@ -14,29 +14,39 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
   - FBRetainCycleDetector (0.1.4)
+  - FoldingCell (4.0.2)
   - MLeaksFinder (1.0.0):
     - FBRetainCycleDetector
   - ReactiveObjC (3.1.0)
 
 DEPENDENCIES:
   - BlocksKit
+  - ChameleonFramework
+  - FoldingCell
   - MLeaksFinder
   - ReactiveObjC
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - BlocksKit
+    - ChameleonFramework
     - FBRetainCycleDetector
+    - FoldingCell
     - MLeaksFinder
     - ReactiveObjC
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  FoldingCell: 352f0211a53f957b885a1b37d5ffa875da90bca5
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
 
-PODFILE CHECKSUM: 77df5f1a7016a80dd2856164c272ce27c6e05b7b
+PODFILE CHECKSUM: e6f75a9e0554b0ba2e93e113b27624e0bc85a464
 
 COCOAPODS: 1.5.3

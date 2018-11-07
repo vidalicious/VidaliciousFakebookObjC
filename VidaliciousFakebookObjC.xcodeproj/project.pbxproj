@@ -14,6 +14,7 @@
 		BC53051221898A1C00A1D572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC53051121898A1C00A1D572 /* Assets.xcassets */; };
 		BC53051521898A1C00A1D572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC53051321898A1C00A1D572 /* LaunchScreen.storyboard */; };
 		BC53051821898A1C00A1D572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53051721898A1C00A1D572 /* main.m */; };
+		BC9CC5C221928FC4005505A3 /* VFOFoldingCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CC5C121928FC4005505A3 /* VFOFoldingCellViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BC53051421898A1C00A1D572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC53051621898A1C00A1D572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC53051721898A1C00A1D572 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC9CC5C021928FC4005505A3 /* VFOFoldingCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFOFoldingCellViewController.h; sourceTree = "<group>"; };
+		BC9CC5C121928FC4005505A3 /* VFOFoldingCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFOFoldingCellViewController.m; sourceTree = "<group>"; };
 		F51C3C947BBE88C8C22F6E0B /* Pods-VidaliciousFakebookObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookObjC/Pods-VidaliciousFakebookObjC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +89,8 @@
 				BC53050921898A1900A1D572 /* AppDelegate.m */,
 				BC53050B21898A1900A1D572 /* ViewController.h */,
 				BC53050C21898A1900A1D572 /* ViewController.m */,
+				BC9CC5C021928FC4005505A3 /* VFOFoldingCellViewController.h */,
+				BC9CC5C121928FC4005505A3 /* VFOFoldingCellViewController.m */,
 				BC53050E21898A1900A1D572 /* Main.storyboard */,
 				BC53051121898A1C00A1D572 /* Assets.xcassets */,
 				BC53051321898A1C00A1D572 /* LaunchScreen.storyboard */,
@@ -190,6 +195,7 @@
 			files = (
 				BC53050D21898A1900A1D572 /* ViewController.m in Sources */,
 				BC53051821898A1C00A1D572 /* main.m in Sources */,
+				BC9CC5C221928FC4005505A3 /* VFOFoldingCellViewController.m in Sources */,
 				BC53050A21898A1900A1D572 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
