@@ -23,6 +23,7 @@
     
     _tableView.delegate = self;
     _tableView.dataSource = self;
+    [self initData];
 }
 
 - (void)initData {
@@ -39,11 +40,18 @@
 #pragma mark - UITableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    return 44;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+    NSString *vcName = _vcs[indexPath.row];
+    Class class = NSClassFromString(vcName);
+    if (class) {
+        UIViewController *ctrl = class.new;
+        ctrl.title = _titles[indexPath.row];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }
 }
 
 #pragma mark - UITableViewDataSource
@@ -53,10 +61,12 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableView *cell = tableView dequeueReusableCellWithIdentifier:@"fakebookCells";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"fakebookCells"];
     if (!cell) {
-        cell = 
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"fakebookCells"];
     }
+    cell.textLabel.text = _titles[indexPath.row];
+    return cell;
 }
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F20C125E8343EF6FD3AAE18 /* libPods-VidaliciousFakebookObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9FB2906BCC5C0080E0999F /* libPods-VidaliciousFakebookObjC.a */; };
+		BC40C75E2192EDC70059C6A5 /* DemoFoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */; };
 		BC53050A21898A1900A1D572 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53050921898A1900A1D572 /* AppDelegate.m */; };
 		BC53050D21898A1900A1D572 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53050C21898A1900A1D572 /* ViewController.m */; };
 		BC53051021898A1900A1D572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC53050E21898A1900A1D572 /* Main.storyboard */; };
@@ -15,11 +16,13 @@
 		BC53051521898A1C00A1D572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC53051321898A1C00A1D572 /* LaunchScreen.storyboard */; };
 		BC53051821898A1C00A1D572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53051721898A1C00A1D572 /* main.m */; };
 		BC9CC5C221928FC4005505A3 /* VFOFoldingCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CC5C121928FC4005505A3 /* VFOFoldingCellViewController.m */; };
+		BC9CC5C62192D87F005505A3 /* VFOSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9CC5C52192D87F005505A3 /* VFOSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A9FB2906BCC5C0080E0999F /* libPods-VidaliciousFakebookObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VidaliciousFakebookObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E057AFB3F285EA44B4815CF /* Pods-VidaliciousFakebookObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookObjC/Pods-VidaliciousFakebookObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFoldingCell.swift; sourceTree = "<group>"; };
 		BC53050521898A1900A1D572 /* VidaliciousFakebookObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidaliciousFakebookObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC53050821898A1900A1D572 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC53050921898A1900A1D572 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,6 +35,8 @@
 		BC53051721898A1C00A1D572 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC9CC5C021928FC4005505A3 /* VFOFoldingCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFOFoldingCellViewController.h; sourceTree = "<group>"; };
 		BC9CC5C121928FC4005505A3 /* VFOFoldingCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFOFoldingCellViewController.m; sourceTree = "<group>"; };
+		BC9CC5C42192D87E005505A3 /* VidaliciousFakebookObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VidaliciousFakebookObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		BC9CC5C52192D87F005505A3 /* VFOSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFOSwift.swift; sourceTree = "<group>"; };
 		F51C3C947BBE88C8C22F6E0B /* Pods-VidaliciousFakebookObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookObjC/Pods-VidaliciousFakebookObjC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,13 +94,16 @@
 				BC53050921898A1900A1D572 /* AppDelegate.m */,
 				BC53050B21898A1900A1D572 /* ViewController.h */,
 				BC53050C21898A1900A1D572 /* ViewController.m */,
+				BC9CC5C52192D87F005505A3 /* VFOSwift.swift */,
 				BC9CC5C021928FC4005505A3 /* VFOFoldingCellViewController.h */,
 				BC9CC5C121928FC4005505A3 /* VFOFoldingCellViewController.m */,
+				BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */,
 				BC53050E21898A1900A1D572 /* Main.storyboard */,
 				BC53051121898A1C00A1D572 /* Assets.xcassets */,
 				BC53051321898A1C00A1D572 /* LaunchScreen.storyboard */,
 				BC53051621898A1C00A1D572 /* Info.plist */,
 				BC53051721898A1C00A1D572 /* main.m */,
+				BC9CC5C42192D87E005505A3 /* VidaliciousFakebookObjC-Bridging-Header.h */,
 			);
 			path = VidaliciousFakebookObjC;
 			sourceTree = "<group>";
@@ -133,6 +141,7 @@
 				TargetAttributes = {
 					BC53050421898A1900A1D572 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -197,6 +206,8 @@
 				BC53051821898A1C00A1D572 /* main.m in Sources */,
 				BC9CC5C221928FC4005505A3 /* VFOFoldingCellViewController.m in Sources */,
 				BC53050A21898A1900A1D572 /* AppDelegate.m in Sources */,
+				BC40C75E2192EDC70059C6A5 /* DemoFoldingCell.swift in Sources */,
+				BC9CC5C62192D87F005505A3 /* VFOSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +350,7 @@
 			baseConfigurationReference = 5E057AFB3F285EA44B4815CF /* Pods-VidaliciousFakebookObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VidaliciousFakebookObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -347,6 +359,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vidalicious.VidaliciousFakebookObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VidaliciousFakebookObjC/VidaliciousFakebookObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -356,6 +371,7 @@
 			baseConfigurationReference = F51C3C947BBE88C8C22F6E0B /* Pods-VidaliciousFakebookObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VidaliciousFakebookObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,6 +380,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vidalicious.VidaliciousFakebookObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VidaliciousFakebookObjC/VidaliciousFakebookObjC-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
