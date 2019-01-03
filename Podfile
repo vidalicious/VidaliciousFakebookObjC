@@ -12,6 +12,8 @@ target 'VidaliciousFakebookObjC' do
   pod ‘ChameleonFramework’
   pod 'FoldingCell'
   pod 'EasyPeasy'
+  pod 'AFNetworking'
+  #  pod 'FBAudienceNetwork'
 
 
 #  s.dependency 'AFNetworking'

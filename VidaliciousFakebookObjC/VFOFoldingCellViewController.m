@@ -60,7 +60,7 @@
         [self.cellHeights setObject:[NSNumber numberWithFloat:_openHeight] atIndexedSubscript:indexPath.row];
         //[cell selectedAnimation:true animated:true completion: nil];
         [cell unfold:YES animated:YES completion:nil];
-        duration = 0.5;
+        duration = 1;
     } else {
         [self.cellHeights setObject:[NSNumber numberWithFloat:_closeHeight] atIndexedSubscript:indexPath.row];
         //[cell selectedAnimation:false animated:true completion: nil];

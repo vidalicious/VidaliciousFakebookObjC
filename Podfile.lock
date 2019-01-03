@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
   - BlocksKit/All (2.2.5):
@@ -25,6 +40,7 @@ PODS:
   - ReactiveObjC (3.1.0)
 
 DEPENDENCIES:
+  - AFNetworking
   - BlocksKit
   - ChameleonFramework
   - EasyPeasy
@@ -34,6 +50,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AFNetworking
     - BlocksKit
     - ChameleonFramework
     - EasyPeasy
@@ -43,6 +60,7 @@ SPEC REPOS:
     - ReactiveObjC
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   EasyPeasy: 2f2785ed78c6f9e9045221f2ff317730e7321bff
@@ -51,6 +69,6 @@ SPEC CHECKSUMS:
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
 
-PODFILE CHECKSUM: 7ff734683f78b5d8aa2a0c35031dc75cf19a9c8d
+PODFILE CHECKSUM: bc526f67c05068b00ee52d001778a26589f4dce4
 
 COCOAPODS: 1.5.3
