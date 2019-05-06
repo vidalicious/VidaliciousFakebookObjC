@@ -34,6 +34,8 @@
     _vcs = @[].mutableCopy;
     [self addTitle:@"FoldingCell" vc:@"VFOFoldingCellViewController"];
     [self addTitle:@"GCD" vc:@"VFOGCDViewController"];
+    [self addTitle:@"Chain Programming" vc:@"VFOChainProgrammingViewController"];
+    [self addTitle:@"Foundation Benchmark" vc:@"VFOFoundationBenchmarkViewController"];
 }
 
 - (void)addTitle:(NSString *)title vc:(NSString *)vc {

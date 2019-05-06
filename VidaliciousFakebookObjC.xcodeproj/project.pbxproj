@@ -15,6 +15,8 @@
 		BC53051221898A1C00A1D572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC53051121898A1C00A1D572 /* Assets.xcassets */; };
 		BC53051521898A1C00A1D572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC53051321898A1C00A1D572 /* LaunchScreen.storyboard */; };
 		BC53051821898A1C00A1D572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53051721898A1C00A1D572 /* main.m */; };
+		BC860B9622809E5700D7502A /* VFOChainProgrammingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC860B9522809E5700D7502A /* VFOChainProgrammingViewController.m */; };
+		BC860B992280A7DC00D7502A /* VFOFoundationBenchmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC860B982280A7DC00D7502A /* VFOFoundationBenchmarkViewController.m */; };
 		BC9CC5C221928FC4005505A3 /* VFOFoldingCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CC5C121928FC4005505A3 /* VFOFoldingCellViewController.m */; };
 		BC9CC5C62192D87F005505A3 /* VFOSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9CC5C52192D87F005505A3 /* VFOSwift.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +36,10 @@
 		BC53051421898A1C00A1D572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC53051621898A1C00A1D572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC53051721898A1C00A1D572 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC860B9422809E5700D7502A /* VFOChainProgrammingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFOChainProgrammingViewController.h; sourceTree = "<group>"; };
+		BC860B9522809E5700D7502A /* VFOChainProgrammingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFOChainProgrammingViewController.m; sourceTree = "<group>"; };
+		BC860B972280A7DC00D7502A /* VFOFoundationBenchmarkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFOFoundationBenchmarkViewController.h; sourceTree = "<group>"; };
+		BC860B982280A7DC00D7502A /* VFOFoundationBenchmarkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFOFoundationBenchmarkViewController.m; sourceTree = "<group>"; };
 		BC9CC5C021928FC4005505A3 /* VFOFoldingCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFOFoldingCellViewController.h; sourceTree = "<group>"; };
 		BC9CC5C121928FC4005505A3 /* VFOFoldingCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFOFoldingCellViewController.m; sourceTree = "<group>"; };
 		BC9CC5C42192D87E005505A3 /* VidaliciousFakebookObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VidaliciousFakebookObjC-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -100,6 +106,10 @@
 				BC9CC5C121928FC4005505A3 /* VFOFoldingCellViewController.m */,
 				BC15D9C02280448700F376C8 /* VFOGCDViewController.h */,
 				BC15D9C12280448700F376C8 /* VFOGCDViewController.m */,
+				BC860B9422809E5700D7502A /* VFOChainProgrammingViewController.h */,
+				BC860B9522809E5700D7502A /* VFOChainProgrammingViewController.m */,
+				BC860B972280A7DC00D7502A /* VFOFoundationBenchmarkViewController.h */,
+				BC860B982280A7DC00D7502A /* VFOFoundationBenchmarkViewController.m */,
 				BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */,
 				BC53051121898A1C00A1D572 /* Assets.xcassets */,
 				BC53051321898A1C00A1D572 /* LaunchScreen.storyboard */,
@@ -208,7 +218,9 @@
 				BC15D9C22280448700F376C8 /* VFOGCDViewController.m in Sources */,
 				BC9CC5C221928FC4005505A3 /* VFOFoldingCellViewController.m in Sources */,
 				BC53050A21898A1900A1D572 /* AppDelegate.m in Sources */,
+				BC860B992280A7DC00D7502A /* VFOFoundationBenchmarkViewController.m in Sources */,
 				BC40C75E2192EDC70059C6A5 /* DemoFoldingCell.swift in Sources */,
+				BC860B9622809E5700D7502A /* VFOChainProgrammingViewController.m in Sources */,
 				BC9CC5C62192D87F005505A3 /* VFOSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

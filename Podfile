@@ -11,7 +11,7 @@ target 'VidaliciousFakebookObjC' do
   pod 'ReactiveObjC'
   pod ‘ChameleonFramework’
   pod 'FoldingCell'
-  #pod 'EasyPeasy'
+  pod 'EasyPeasy'
   pod 'AFNetworking'
   # pod 'Firebase/Core'
   # pod 'Firebase/Functions'
