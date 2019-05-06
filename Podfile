@@ -13,6 +13,9 @@ target 'VidaliciousFakebookObjC' do
   pod 'FoldingCell'
   pod 'EasyPeasy'
   pod 'AFNetworking'
+  # pod 'Firebase/Core'
+  # pod 'Firebase/Functions'
+  # pod 'GoogleAnalytics'
   #  pod 'FBAudienceNetwork'
 
 

@@ -7,12 +7,14 @@
 //
 
 #import "ViewController.h"
+#import <FirebaseFunctions/FirebaseFunctions.h>
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *titles;
 @property (strong, nonatomic) NSMutableArray *vcs;
+@property (nonatomic, strong) FIRFunctions *functions;
 
 @end
 
@@ -24,6 +26,7 @@
     _tableView.delegate = self;
     _tableView.dataSource = self;
     [self initData];
+    self.functions = [FIRFunctions functions];
 }
 
 - (void)initData {
