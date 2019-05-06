@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <ChameleonFramework/Chameleon.h>
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [Chameleon setGlobalThemeUsingPrimaryColor:FlatRed withSecondaryColor:FlatPink andContentStyle:UIContentStyleContrast];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:ViewController.new];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

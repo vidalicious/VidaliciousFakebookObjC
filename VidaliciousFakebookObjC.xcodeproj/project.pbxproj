@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7F20C125E8343EF6FD3AAE18 /* libPods-VidaliciousFakebookObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9FB2906BCC5C0080E0999F /* libPods-VidaliciousFakebookObjC.a */; };
+		BC15D9C22280448700F376C8 /* VFOGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15D9C12280448700F376C8 /* VFOGCDViewController.m */; };
 		BC40C75E2192EDC70059C6A5 /* DemoFoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */; };
 		BC53050A21898A1900A1D572 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53050921898A1900A1D572 /* AppDelegate.m */; };
 		BC53050D21898A1900A1D572 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53050C21898A1900A1D572 /* ViewController.m */; };
-		BC53051021898A1900A1D572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC53050E21898A1900A1D572 /* Main.storyboard */; };
 		BC53051221898A1C00A1D572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC53051121898A1C00A1D572 /* Assets.xcassets */; };
 		BC53051521898A1C00A1D572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC53051321898A1C00A1D572 /* LaunchScreen.storyboard */; };
 		BC53051821898A1C00A1D572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53051721898A1C00A1D572 /* main.m */; };
@@ -22,13 +22,14 @@
 /* Begin PBXFileReference section */
 		5A9FB2906BCC5C0080E0999F /* libPods-VidaliciousFakebookObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VidaliciousFakebookObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E057AFB3F285EA44B4815CF /* Pods-VidaliciousFakebookObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookObjC/Pods-VidaliciousFakebookObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		BC15D9C02280448700F376C8 /* VFOGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFOGCDViewController.h; sourceTree = "<group>"; };
+		BC15D9C12280448700F376C8 /* VFOGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFOGCDViewController.m; sourceTree = "<group>"; };
 		BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFoldingCell.swift; sourceTree = "<group>"; };
 		BC53050521898A1900A1D572 /* VidaliciousFakebookObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidaliciousFakebookObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC53050821898A1900A1D572 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC53050921898A1900A1D572 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BC53050B21898A1900A1D572 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BC53050C21898A1900A1D572 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BC53050F21898A1900A1D572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC53051121898A1C00A1D572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC53051421898A1C00A1D572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC53051621898A1C00A1D572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,8 +98,9 @@
 				BC9CC5C52192D87F005505A3 /* VFOSwift.swift */,
 				BC9CC5C021928FC4005505A3 /* VFOFoldingCellViewController.h */,
 				BC9CC5C121928FC4005505A3 /* VFOFoldingCellViewController.m */,
+				BC15D9C02280448700F376C8 /* VFOGCDViewController.h */,
+				BC15D9C12280448700F376C8 /* VFOGCDViewController.m */,
 				BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */,
-				BC53050E21898A1900A1D572 /* Main.storyboard */,
 				BC53051121898A1C00A1D572 /* Assets.xcassets */,
 				BC53051321898A1C00A1D572 /* LaunchScreen.storyboard */,
 				BC53051621898A1C00A1D572 /* Info.plist */,
@@ -170,7 +172,6 @@
 			files = (
 				BC53051521898A1C00A1D572 /* LaunchScreen.storyboard in Resources */,
 				BC53051221898A1C00A1D572 /* Assets.xcassets in Resources */,
-				BC53051021898A1900A1D572 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +205,7 @@
 			files = (
 				BC53050D21898A1900A1D572 /* ViewController.m in Sources */,
 				BC53051821898A1C00A1D572 /* main.m in Sources */,
+				BC15D9C22280448700F376C8 /* VFOGCDViewController.m in Sources */,
 				BC9CC5C221928FC4005505A3 /* VFOFoldingCellViewController.m in Sources */,
 				BC53050A21898A1900A1D572 /* AppDelegate.m in Sources */,
 				BC40C75E2192EDC70059C6A5 /* DemoFoldingCell.swift in Sources */,
@@ -214,14 +216,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BC53050E21898A1900A1D572 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC53050F21898A1900A1D572 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC53051321898A1C00A1D572 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

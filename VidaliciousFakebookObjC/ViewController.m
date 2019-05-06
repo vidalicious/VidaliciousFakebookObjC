@@ -7,14 +7,12 @@
 //
 
 #import "ViewController.h"
-#import <FirebaseFunctions/FirebaseFunctions.h>
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, weak) UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *titles;
 @property (strong, nonatomic) NSMutableArray *vcs;
-@property (nonatomic, strong) FIRFunctions *functions;
 
 @end
 
@@ -22,17 +20,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = UIColor.whiteColor;
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:tableView];
+    _tableView = tableView;
     _tableView.delegate = self;
     _tableView.dataSource = self;
     [self initData];
-    self.functions = [FIRFunctions functions];
 }
 
 - (void)initData {
     _titles = @[].mutableCopy;
     _vcs = @[].mutableCopy;
     [self addTitle:@"FoldingCell" vc:@"VFOFoldingCellViewController"];
+    [self addTitle:@"GCD" vc:@"VFOGCDViewController"];
 }
 
 - (void)addTitle:(NSString *)title vc:(NSString *)vc {
