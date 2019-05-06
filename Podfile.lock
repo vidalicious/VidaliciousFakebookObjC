@@ -14,61 +14,31 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - BlocksKit (2.2.5):
-    - BlocksKit/All (= 2.2.5)
-  - BlocksKit/All (2.2.5):
-    - BlocksKit/Core
-    - BlocksKit/DynamicDelegate
-    - BlocksKit/MessageUI
-    - BlocksKit/UIKit
-  - BlocksKit/Core (2.2.5)
-  - BlocksKit/DynamicDelegate (2.2.5)
-  - BlocksKit/MessageUI (2.2.5):
-    - BlocksKit/Core
-    - BlocksKit/DynamicDelegate
-  - BlocksKit/UIKit (2.2.5):
-    - BlocksKit/Core
-    - BlocksKit/DynamicDelegate
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
-  - EasyPeasy (1.7.0)
-  - FBRetainCycleDetector (0.1.4)
-  - FoldingCell (4.0.2)
-  - MLeaksFinder (1.0.0):
-    - FBRetainCycleDetector
-  - ReactiveObjC (3.1.0)
+  - FoldingCell (5.0.1)
+  - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
   - AFNetworking
-  - BlocksKit
   - ChameleonFramework
-  - EasyPeasy
   - FoldingCell
-  - MLeaksFinder
   - ReactiveObjC
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - BlocksKit
     - ChameleonFramework
-    - EasyPeasy
-    - FBRetainCycleDetector
     - FoldingCell
-    - MLeaksFinder
     - ReactiveObjC
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  EasyPeasy: 2f2785ed78c6f9e9045221f2ff317730e7321bff
-  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
-  FoldingCell: 352f0211a53f957b885a1b37d5ffa875da90bca5
-  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
-  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  FoldingCell: 9197b915a415af9e52a857964066797af6a51c2b
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 1e5afe89df7cc639403ca099b1ae4a07da50d629
+PODFILE CHECKSUM: df3802d1b8e240d90f6f978fb6bf5f4a4be2368f
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.5.3

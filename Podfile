@@ -6,12 +6,12 @@ target 'VidaliciousFakebookObjC' do
   # use_frameworks!
 
   # Pods for VidaliciousFakebookObjC
-  pod 'BlocksKit'
-  pod 'MLeaksFinder' ,:configurations => ['Debug']
+  #pod 'BlocksKit'
+  #pod 'MLeaksFinder' ,:configurations => ['Debug']
   pod 'ReactiveObjC'
   pod ‘ChameleonFramework’
   pod 'FoldingCell'
-  pod 'EasyPeasy'
+  #pod 'EasyPeasy'
   pod 'AFNetworking'
   # pod 'Firebase/Core'
   # pod 'Firebase/Functions'

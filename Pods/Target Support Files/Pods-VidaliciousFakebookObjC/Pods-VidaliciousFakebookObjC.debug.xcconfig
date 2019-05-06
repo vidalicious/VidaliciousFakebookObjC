@@ -1,12 +1,12 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/BlocksKit" "${PODS_ROOT}/Headers/Public/ChameleonFramework" "${PODS_ROOT}/Headers/Public/FBRetainCycleDetector" "${PODS_ROOT}/Headers/Public/MLeaksFinder" "${PODS_ROOT}/Headers/Public/ReactiveObjC"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/BlocksKit" "${PODS_CONFIGURATION_BUILD_DIR}/ChameleonFramework" "${PODS_CONFIGURATION_BUILD_DIR}/EasyPeasy" "${PODS_CONFIGURATION_BUILD_DIR}/FBRetainCycleDetector" "${PODS_CONFIGURATION_BUILD_DIR}/FoldingCell" "${PODS_CONFIGURATION_BUILD_DIR}/MLeaksFinder" "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC"
-OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/EasyPeasy/EasyPeasy.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/FoldingCell/FoldingCell.modulemap"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"BlocksKit" -l"ChameleonFramework" -l"EasyPeasy" -l"FBRetainCycleDetector" -l"FoldingCell" -l"MLeaksFinder" -l"ReactiveObjC" -l"c++" -framework "CoreGraphics" -framework "Foundation" -framework "MessageUI" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
-OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/EasyPeasy/EasyPeasy.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/FoldingCell/FoldingCell.modulemap"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/ChameleonFramework" "${PODS_ROOT}/Headers/Public/ReactiveObjC"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/ChameleonFramework" "${PODS_CONFIGURATION_BUILD_DIR}/FoldingCell" "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/FoldingCell/FoldingCell.modulemap" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/ChameleonFramework" -isystem "${PODS_ROOT}/Headers/Public/ReactiveObjC"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"ChameleonFramework" -l"FoldingCell" -l"ReactiveObjC" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/FoldingCell/FoldingCell.modulemap" $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
-SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/EasyPeasy" "${PODS_CONFIGURATION_BUILD_DIR}/FoldingCell"
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FoldingCell"
