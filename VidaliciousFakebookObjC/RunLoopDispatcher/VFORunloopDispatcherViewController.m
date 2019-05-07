@@ -38,7 +38,7 @@
 }
 
 - (void)task_2:(UITableViewCell *)cell indexPath:(NSIndexPath *)indexPath  {
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(105, 20, 85, 85)];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(115, 20, 100, 85)];
     imageView.tag = 2;
     UIImage *image = [UIImage imageNamed:@"Resource.bundle/stars.jpg"];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
@@ -50,7 +50,7 @@
 }
 
 - (void)task_3:(UITableViewCell *)cell indexPath:(NSIndexPath *)indexPath  {
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(200, 20, 85, 85)];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(225, 20, 100, 85)];
     imageView.tag = 3;
     UIImage *image = [UIImage imageNamed:@"Resource.bundle/stars.jpg"];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
@@ -71,7 +71,7 @@
     label.font = [UIFont boldSystemFontOfSize:13];
     label.tag = 4;
     
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 20, 85, 85)];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 20, 100, 85)];
     imageView.tag = 5;
     UIImage *image = [UIImage imageNamed:@"Resource.bundle/stars.jpg"];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
