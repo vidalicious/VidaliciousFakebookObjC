@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7F20C125E8343EF6FD3AAE18 /* libPods-VidaliciousFakebookObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9FB2906BCC5C0080E0999F /* libPods-VidaliciousFakebookObjC.a */; };
+		BC13A57822816EAD0082AB18 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC13A57722816EAD0082AB18 /* Resource.bundle */; };
+		BC13A57E22817B600082AB18 /* VFORunLoopDispatcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC13A57D22817B600082AB18 /* VFORunLoopDispatcherViewController.m */; };
+		BC13A58122817B900082AB18 /* VFORunLoopDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BC13A58022817B900082AB18 /* VFORunLoopDispatcher.m */; };
 		BC15D9C22280448700F376C8 /* VFOGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15D9C12280448700F376C8 /* VFOGCDViewController.m */; };
 		BC40C75E2192EDC70059C6A5 /* DemoFoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */; };
 		BC53050A21898A1900A1D572 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53050921898A1900A1D572 /* AppDelegate.m */; };
@@ -24,6 +27,11 @@
 /* Begin PBXFileReference section */
 		5A9FB2906BCC5C0080E0999F /* libPods-VidaliciousFakebookObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VidaliciousFakebookObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E057AFB3F285EA44B4815CF /* Pods-VidaliciousFakebookObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidaliciousFakebookObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidaliciousFakebookObjC/Pods-VidaliciousFakebookObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		BC13A57722816EAD0082AB18 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = SOURCE_ROOT; };
+		BC13A57C22817B600082AB18 /* VFORunLoopDispatcherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFORunLoopDispatcherViewController.h; sourceTree = "<group>"; };
+		BC13A57D22817B600082AB18 /* VFORunLoopDispatcherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFORunLoopDispatcherViewController.m; sourceTree = "<group>"; };
+		BC13A57F22817B900082AB18 /* VFORunLoopDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFORunLoopDispatcher.h; sourceTree = "<group>"; };
+		BC13A58022817B900082AB18 /* VFORunLoopDispatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFORunLoopDispatcher.m; sourceTree = "<group>"; };
 		BC15D9C02280448700F376C8 /* VFOGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFOGCDViewController.h; sourceTree = "<group>"; };
 		BC15D9C12280448700F376C8 /* VFOGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFOGCDViewController.m; sourceTree = "<group>"; };
 		BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFoldingCell.swift; sourceTree = "<group>"; };
@@ -76,6 +84,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC13A57322816D500082AB18 /* RunLoopDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				BC13A57C22817B600082AB18 /* VFORunLoopDispatcherViewController.h */,
+				BC13A57D22817B600082AB18 /* VFORunLoopDispatcherViewController.m */,
+				BC13A57F22817B900082AB18 /* VFORunLoopDispatcher.h */,
+				BC13A58022817B900082AB18 /* VFORunLoopDispatcher.m */,
+			);
+			path = RunLoopDispatcher;
+			sourceTree = "<group>";
+		};
 		BC5304FC21898A1900A1D572 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +116,7 @@
 		BC53050721898A1900A1D572 /* VidaliciousFakebookObjC */ = {
 			isa = PBXGroup;
 			children = (
+				BC13A57722816EAD0082AB18 /* Resource.bundle */,
 				BC53050821898A1900A1D572 /* AppDelegate.h */,
 				BC53050921898A1900A1D572 /* AppDelegate.m */,
 				BC53050B21898A1900A1D572 /* ViewController.h */,
@@ -110,6 +130,7 @@
 				BC860B9522809E5700D7502A /* VFOChainProgrammingViewController.m */,
 				BC860B972280A7DC00D7502A /* VFOFoundationBenchmarkViewController.h */,
 				BC860B982280A7DC00D7502A /* VFOFoundationBenchmarkViewController.m */,
+				BC13A57322816D500082AB18 /* RunLoopDispatcher */,
 				BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */,
 				BC53051121898A1C00A1D572 /* Assets.xcassets */,
 				BC53051321898A1C00A1D572 /* LaunchScreen.storyboard */,
@@ -180,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC13A57822816EAD0082AB18 /* Resource.bundle in Resources */,
 				BC53051521898A1C00A1D572 /* LaunchScreen.storyboard in Resources */,
 				BC53051221898A1C00A1D572 /* Assets.xcassets in Resources */,
 			);
@@ -215,12 +237,14 @@
 			files = (
 				BC53050D21898A1900A1D572 /* ViewController.m in Sources */,
 				BC53051821898A1C00A1D572 /* main.m in Sources */,
+				BC13A57E22817B600082AB18 /* VFORunLoopDispatcherViewController.m in Sources */,
 				BC15D9C22280448700F376C8 /* VFOGCDViewController.m in Sources */,
 				BC9CC5C221928FC4005505A3 /* VFOFoldingCellViewController.m in Sources */,
 				BC53050A21898A1900A1D572 /* AppDelegate.m in Sources */,
 				BC860B992280A7DC00D7502A /* VFOFoundationBenchmarkViewController.m in Sources */,
 				BC40C75E2192EDC70059C6A5 /* DemoFoldingCell.swift in Sources */,
 				BC860B9622809E5700D7502A /* VFOChainProgrammingViewController.m in Sources */,
+				BC13A58122817B900082AB18 /* VFORunLoopDispatcher.m in Sources */,
 				BC9CC5C62192D87F005505A3 /* VFOSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

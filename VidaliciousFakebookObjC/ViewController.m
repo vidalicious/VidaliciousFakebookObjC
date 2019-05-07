@@ -36,6 +36,7 @@
     [self addTitle:@"GCD" vc:@"VFOGCDViewController"];
     [self addTitle:@"Chain Programming" vc:@"VFOChainProgrammingViewController"];
     [self addTitle:@"Foundation Benchmark" vc:@"VFOFoundationBenchmarkViewController"];
+    [self addTitle:@"RunLoop Dispatcher" vc:@"VFORunLoopDispatcherViewController"];
 }
 
 - (void)addTitle:(NSString *)title vc:(NSString *)vc {

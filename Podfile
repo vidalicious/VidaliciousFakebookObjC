@@ -9,7 +9,7 @@ target 'VidaliciousFakebookObjC' do
   #pod 'BlocksKit'
   #pod 'MLeaksFinder' ,:configurations => ['Debug']
   pod 'ReactiveObjC'
-  pod ‘ChameleonFramework’
+  pod 'ChameleonFramework'
   pod 'FoldingCell'
   pod 'EasyPeasy'
   pod 'AFNetworking'
