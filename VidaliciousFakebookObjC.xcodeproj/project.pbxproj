@@ -12,6 +12,10 @@
 		BC13A57E22817B600082AB18 /* VFORunLoopDispatcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC13A57D22817B600082AB18 /* VFORunLoopDispatcherViewController.m */; };
 		BC13A58122817B900082AB18 /* VFORunLoopDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BC13A58022817B900082AB18 /* VFORunLoopDispatcher.m */; };
 		BC15D9C22280448700F376C8 /* VFOGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15D9C12280448700F376C8 /* VFOGCDViewController.m */; };
+		BC17CE722282829F008FACA7 /* VFOForwardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC17CE712282829F008FACA7 /* VFOForwardingViewController.m */; };
+		BC17CE752282AB1C008FACA7 /* VFOMessageOrigin.m in Sources */ = {isa = PBXBuildFile; fileRef = BC17CE742282AB1C008FACA7 /* VFOMessageOrigin.m */; };
+		BC17CE782282ABCB008FACA7 /* VFOMessageForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = BC17CE772282ABCB008FACA7 /* VFOMessageForwarding.m */; };
+		BC17CE7B2282AED4008FACA7 /* NSObject+VFOForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = BC17CE7A2282AED4008FACA7 /* NSObject+VFOForwarding.m */; };
 		BC40C75E2192EDC70059C6A5 /* DemoFoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */; };
 		BC53050A21898A1900A1D572 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53050921898A1900A1D572 /* AppDelegate.m */; };
 		BC53050D21898A1900A1D572 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53050C21898A1900A1D572 /* ViewController.m */; };
@@ -34,6 +38,14 @@
 		BC13A58022817B900082AB18 /* VFORunLoopDispatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFORunLoopDispatcher.m; sourceTree = "<group>"; };
 		BC15D9C02280448700F376C8 /* VFOGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFOGCDViewController.h; sourceTree = "<group>"; };
 		BC15D9C12280448700F376C8 /* VFOGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFOGCDViewController.m; sourceTree = "<group>"; };
+		BC17CE702282829F008FACA7 /* VFOForwardingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFOForwardingViewController.h; sourceTree = "<group>"; };
+		BC17CE712282829F008FACA7 /* VFOForwardingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFOForwardingViewController.m; sourceTree = "<group>"; };
+		BC17CE732282AB1C008FACA7 /* VFOMessageOrigin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFOMessageOrigin.h; sourceTree = "<group>"; };
+		BC17CE742282AB1C008FACA7 /* VFOMessageOrigin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFOMessageOrigin.m; sourceTree = "<group>"; };
+		BC17CE762282ABCB008FACA7 /* VFOMessageForwarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFOMessageForwarding.h; sourceTree = "<group>"; };
+		BC17CE772282ABCB008FACA7 /* VFOMessageForwarding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFOMessageForwarding.m; sourceTree = "<group>"; };
+		BC17CE792282AED4008FACA7 /* NSObject+VFOForwarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+VFOForwarding.h"; sourceTree = "<group>"; };
+		BC17CE7A2282AED4008FACA7 /* NSObject+VFOForwarding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VFOForwarding.m"; sourceTree = "<group>"; };
 		BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFoldingCell.swift; sourceTree = "<group>"; };
 		BC53050521898A1900A1D572 /* VidaliciousFakebookObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidaliciousFakebookObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC53050821898A1900A1D572 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +107,21 @@
 			path = RunLoopDispatcher;
 			sourceTree = "<group>";
 		};
+		BC17CE6F22828271008FACA7 /* Forwarding */ = {
+			isa = PBXGroup;
+			children = (
+				BC17CE702282829F008FACA7 /* VFOForwardingViewController.h */,
+				BC17CE712282829F008FACA7 /* VFOForwardingViewController.m */,
+				BC17CE732282AB1C008FACA7 /* VFOMessageOrigin.h */,
+				BC17CE742282AB1C008FACA7 /* VFOMessageOrigin.m */,
+				BC17CE762282ABCB008FACA7 /* VFOMessageForwarding.h */,
+				BC17CE772282ABCB008FACA7 /* VFOMessageForwarding.m */,
+				BC17CE792282AED4008FACA7 /* NSObject+VFOForwarding.h */,
+				BC17CE7A2282AED4008FACA7 /* NSObject+VFOForwarding.m */,
+			);
+			path = Forwarding;
+			sourceTree = "<group>";
+		};
 		BC5304FC21898A1900A1D572 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +158,7 @@
 				BC860B972280A7DC00D7502A /* VFOFoundationBenchmarkViewController.h */,
 				BC860B982280A7DC00D7502A /* VFOFoundationBenchmarkViewController.m */,
 				BC13A57322816D500082AB18 /* RunLoopDispatcher */,
+				BC17CE6F22828271008FACA7 /* Forwarding */,
 				BC40C75D2192EDC70059C6A5 /* DemoFoldingCell.swift */,
 				BC53051121898A1C00A1D572 /* Assets.xcassets */,
 				BC53051321898A1C00A1D572 /* LaunchScreen.storyboard */,
@@ -240,10 +268,14 @@
 				BC13A57E22817B600082AB18 /* VFORunLoopDispatcherViewController.m in Sources */,
 				BC15D9C22280448700F376C8 /* VFOGCDViewController.m in Sources */,
 				BC9CC5C221928FC4005505A3 /* VFOFoldingCellViewController.m in Sources */,
+				BC17CE752282AB1C008FACA7 /* VFOMessageOrigin.m in Sources */,
 				BC53050A21898A1900A1D572 /* AppDelegate.m in Sources */,
 				BC860B992280A7DC00D7502A /* VFOFoundationBenchmarkViewController.m in Sources */,
 				BC40C75E2192EDC70059C6A5 /* DemoFoldingCell.swift in Sources */,
 				BC860B9622809E5700D7502A /* VFOChainProgrammingViewController.m in Sources */,
+				BC17CE782282ABCB008FACA7 /* VFOMessageForwarding.m in Sources */,
+				BC17CE722282829F008FACA7 /* VFOForwardingViewController.m in Sources */,
+				BC17CE7B2282AED4008FACA7 /* NSObject+VFOForwarding.m in Sources */,
 				BC13A58122817B900082AB18 /* VFORunLoopDispatcher.m in Sources */,
 				BC9CC5C62192D87F005505A3 /* VFOSwift.swift in Sources */,
 			);

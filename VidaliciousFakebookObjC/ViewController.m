@@ -37,6 +37,7 @@
     [self addTitle:@"Chain Programming" vc:@"VFOChainProgrammingViewController"];
     [self addTitle:@"Foundation Benchmark" vc:@"VFOFoundationBenchmarkViewController"];
     [self addTitle:@"RunLoop Dispatcher" vc:@"VFORunLoopDispatcherViewController"];
+    [self addTitle:@"Forwarding" vc:@"VFOForwardingViewController"];
 }
 
 - (void)addTitle:(NSString *)title vc:(NSString *)vc {
