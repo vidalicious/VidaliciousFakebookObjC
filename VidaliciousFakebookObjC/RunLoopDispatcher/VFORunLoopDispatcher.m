@@ -50,7 +50,8 @@
 }
 
 - (void)removeAllTasks {
-    
+    [self.keys removeAllObjects];
+    [self.tasks removeAllObjects];
 }
 
 + (void)_registerRunLoopDispatcherAsMainRunloopObserver:(VFORunLoopDispatcher *)runLoopDispatcher {
